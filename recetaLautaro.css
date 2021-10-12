@@ -1,0 +1,57 @@
+h1 {
+
+    text-decoration: underline #FF5733;
+    font-family: 'Cookie', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 53px;
+    margin-left: 10px;
+    }
+    
+    h2{
+        font-family: 'Caveat Brush', cursive;
+       font-size: 28px;
+       margin-left: 20px;
+    
+    }
+    
+    h3{
+        font-family: 'Caveat Brush', cursive;
+        font-size: 28px;
+        margin-left: 20px;
+     
+     }
+    
+     p{
+        font-family: 'Gabriela', serif;
+        font-size: 14px;
+        margin-left: 10px;
+        
+     }
+    
+    body {
+        background-image: url(fondo.png);
+        background-repeat: repeat;
+    }
+    
+    .ingredientes {
+        font-family: gabriela; 
+        font-size: 14px;
+        margin-left: 10px;
+    
+    }
+    
+    .fondo {
+        position: absolute;
+        width: 1299px;
+        height: 1500px;
+        left: 27px;
+        top: 60px;
+        background: rgba(255, 255, 255, 0.85);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    
+    img{
+        width: 45%;
+    }

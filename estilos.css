@@ -1,0 +1,94 @@
+body{
+
+    margin:0;
+    padding:0;
+}
+.menu{
+    width: 602px;
+    height: 50px;     
+    background-color: #FF5733;
+    display: inline-block;
+
+    
+}
+.cajamenu{
+    display:flex;
+   
+}
+.cajamenu li{
+    margin: 5px;
+    color: black;
+    list-style: none;
+
+}
+
+
+.tarjetas{
+    max-width: 1200px;
+
+    margin: 0 auto;
+    display:flex;
+}
+.tarjetareceta{
+    width: 235px;
+    height: 345px;
+    left: 55px;
+    top: 183px;  
+    background-color: #F5C353;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 19px; 
+    margin: 30px;
+    padding: 10px;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    display: flex;
+}
+    
+
+.piedepagina{
+    background-color: #4E2F0F;   
+    width: 100%;
+    height: 400px;
+    font-family: Caveat Brush;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    color: #F5C353;
+}
+
+.fotoreceta{
+    width: 150px;
+    height: 150px;  
+    text-align: center;
+    margin: 5% auto;
+}
+.linkreceta{
+    text-decoration: none;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+margin: auto;
+text-align: center;
+
+}
+.linkreceta a{
+    text-decoration: none;
+
+}
+.linkreceta a:hover{
+    text-decoration:underline;
+    color: brown;
+
+}
+h1{
+    font-family: 'Cookie';
+  font-style: normal;
+  font-weight: 400;
+  src:
+    local('Cookie'),
+    url(/fonts/opensans.woff2) format('woff2')
+    
+}
